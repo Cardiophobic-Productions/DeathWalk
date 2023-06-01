@@ -4,16 +4,13 @@
 
 # Anything in `/RawContent` dir.
 /RawContent/**/* filter=lfs diff=lfs merge=lfs -text
-
 # Creative software
 *.rns lfs-file
 *.reason lfs-file
 *.lxo lfs-file
 *.exr lfs-file
-
 # Documents
 *.pdf lfs-file
-
 # Image formats
 *.afdesign lfs-file
 *.afphoto lfs-file
@@ -30,7 +27,6 @@
 *.tga lfs-file
 *.tiff lfs-file
 *.webp lfs-file
-
 # Audio formats
 *.aif lfs-file
 *.aiff lfs-file
@@ -41,7 +37,6 @@
 *.s3m lfs-file
 *.wav lfs-file
 *.xm lfs-file
-
 # Video formats
 *.mov lfs-file
 *.avi lfs-file
@@ -49,7 +44,6 @@
 *.mpg lfs-file
 *.mpeg lfs-file
 *.mp4 lfs-file
-
 # 3D formats
 *.3ds lfs-file
 *.3dm lfs-file
@@ -64,26 +58,23 @@
 *.gltf lfs-file
 *.lwo lfs-file
 *.lwo2 lfs-file
-*.lxo lfs-file
 *.obj lfs-file
 *.ma lfs-file
 *.max lfs-file
 *.mb lfs-file
-
 # Font formats
 *.ttf lfs-file
 *.otf lfs-file
-
 # Bundles and binaries
 *.dll lfs-file
 *.exe lfs-file
 *.mdb lfs-file
 *.pdb lfs-file
 *.so lfs-file
-
 # Packaging
 *.zip lfs-file
 *.7z lfs-file
 *.gz lfs-file
 *.rar lfs-file
 *.tar lfs-file
+*.ucas filter=lfs diff=lfs merge=lfs -text
